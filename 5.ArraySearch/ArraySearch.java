@@ -62,7 +62,6 @@ System.out.println("Item not found");
 default:System.out.print("\nInvalid option");  
 }
 }while(true);}
-//linear search
 int linearsearch(int n,int[]numbers)
 {
 for(int i=0;i<numbers.length;i++)
@@ -75,7 +74,6 @@ return 1;
 return -1;
 }
  
-//simple binary search
 int simplebinarysearch(int n,int[]numbers)
 {
 int first=0;
@@ -98,7 +96,6 @@ mid=(first+last)/2;
 }
 return -1;
 }
-//recursive binary search
 int RecursiveBinarySearch(int[]numbers,int first,int last,int x)
 {
 if(first<=last)
