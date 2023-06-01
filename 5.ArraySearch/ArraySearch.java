@@ -47,7 +47,6 @@ System.out.println("Item not found");
 
 case 4:Arrays.sort(numbers);
        result=Arrays.binarySearch(numbers,se);
-case 5:System.exit(0);
 
 if(result>-1)
 {
